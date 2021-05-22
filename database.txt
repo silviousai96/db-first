@@ -1,0 +1,43 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+AUTO USATA
+
+Id -               NUMERO     INT             NOTNULL
+
+Marca -            STRINGA    VARCHAR(30)     NOTNULL
+
+Modello -          STRINGA    VARCHAR(30)     NOTNULL
+
+Versione -         STRINGA    VARCHAR(50)
+
+Prezzo(€) -        NUMERO     INT             NOTNULL
+
+Km -               NUMERO     INT             NOTNULL
+
+Cilindrata -       NUMERO     INT             NOTNULL
+
+Potenza(Cv) -      NUMERO     SMALLINT        NOTNULL
+
+Potenza(kW) -      NUMERO     FLOAT(4,2)      NOTNULL
+
+Consumi(l/100km) - NUMERO     FLOAT(2,2)
+
+Carburante -       STRINGA    VARCHAR(10)     NOTNULL
+
+Cambio -           STRINGA    VARCHAR(20)     NOTNULL
+
+Proprietari -      NUMERO     TINYINT
+
+Immatricolazione - DATA       YEAR
+
+Peso(Kg) -         NUMERO     INT
+
+Lunghezza(m) -     NUMERO     INT
+
+Larghezza(m) -     NUMERO     INT
+
+Descrizione -      STRINGA    TEXT
+
+
+
